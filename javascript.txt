@@ -1,0 +1,5 @@
+setChartLibrary('google-chart');
+setChartTitle('Smart Ombrometer');
+setChartType('barGraph');
+setAxisName('Time Stamp', 'Water Level');
+plotChart('time_stamp', 'water');
